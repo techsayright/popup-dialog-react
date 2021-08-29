@@ -1,0 +1,17 @@
+.userList{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1rem;
+    padding: 1rem;
+    min-width: 40vw;
+    height: 4rem;
+    font-size: 3rem;
+    background-color: yellow;
+    cursor: pointer;
+
+    div{
+        margin: 0  3rem;
+    }
+
+}

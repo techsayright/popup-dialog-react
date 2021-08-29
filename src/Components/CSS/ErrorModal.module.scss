@@ -1,0 +1,39 @@
+.backDrop{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.70);
+    cursor: pointer;
+
+    .ErrModal{
+        position: fixed;
+        top: 30vh;
+        left: 42vw;
+        right: 40vw;
+        background-color: silver;
+        border: .5rem solid black;
+        z-index: 100;
+
+        header{
+            font-size: 4rem;
+            background-color: #fff;
+            font-family: monospace;
+            padding: 1rem .5rem;
+            color: red;
+        }
+
+        section{
+            font-size: 2rem;
+            padding: 4rem 2rem;
+        }
+
+        footer{
+            margin: 1rem;
+            float: right;
+        }
+    }
+}
+
